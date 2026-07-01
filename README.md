@@ -35,12 +35,12 @@ cd D:\Movie_Review_Sentiment_Analyzer
 ## 2. Activate the Virtual Environment
 Activate your Python virtual environment:
 
-Windows (PowerShell):
+ - Windows (PowerShell):
 
 ```PowerShell
 .venv\Scripts\Activate.ps1
 ```
-Windows (Command Prompt):
+ - Windows (Command Prompt):
 
 ```DOS
 .venv\Scripts\activate.bat
