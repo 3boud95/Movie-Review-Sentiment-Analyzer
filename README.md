@@ -57,12 +57,12 @@ Once your environment is active and dependencies are installed, launch the web a
 ```Bash
 streamlit run app.py
 ```
-**💡 Note**: A browser window should automatically open at http://localhost:8501. If it doesn't, copy and paste that URL into your web browser.
+**💡 Note**: A browser window should automatically open at `http://localhost:8501`. If it doesn't, copy and paste that URL into your web browser.
 
 ## ⚙️ How the Pipeline Works
 1. **Data Ingestion**: Merges 50,000 individual movie review text files from the IMDb dataset into structured CSV datasets.
 
-2. **Preprocessing**: Strips away non-alphabet characters, web-specific noise (<br />), and non-sentiment driving words (stopwords).
+2. **Preprocessing**: Strips away non-alphabet characters, web-specific noise (`<br />`), and non-sentiment driving words (stopwords).
 
 3. **Feature Engineering**: Converts cleaned strings into continuous values using a TF-IDF Matrix with unigrams and bigrams.
 
